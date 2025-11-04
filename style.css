@@ -1,0 +1,65 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.picker-container {
+    margin: 1.5rem 0;
+}
+
+input[type="color"] {
+    width: 60px;
+    height: 60px;
+    border: none;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.harmony-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.color-display {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease;
+}
+
+.color-label {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}

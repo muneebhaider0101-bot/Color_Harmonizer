@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Color Harmonizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Functional Color Harmonizer</h1>
+        <p>Pick a base color to see its harmonies.</p>
+        
+        <div class="picker-container">
+            <label for="colorPicker">Base Color:</label>
+            <input type="color" id="colorPicker" value="#1F8FFF">
+        </div>
+
+        <div class="harmony-container">
+            <div class="color-display" id="baseDisplay">
+                <span class="color-label" id="baseLabel">Base</span>
+            </div>
+            <div class="color-display" id="complementaryDisplay">
+                <span class="color-label" id="complementaryLabel">Complementary</span>
+            </div>
+            <div class="color-display" id="triadic1Display">
+                <span class="color-label" id="triadic1Label">Triadic 1</span>
+            </div>
+            <div class="color-display" id="triadic2Display">
+                <span class="color-label" id="triadic2Label">Triadic 2</span>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html> 
